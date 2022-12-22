@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
      crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Nvidia</title>
 </head>
 <body>
+    <div class="container">
     <header>
-        <figure class="logo nvidia">
-            <img src="./img/Logo Nvidia.png" alt="Logo Nvidia">
-        </figure>
+        <div class="header">
+            <figure class="logo">
+                <img src="./img/Logo Nvidia.png" alt="Logo Nvidia">
+            </figure>
         <nav>
             <ul>
                 <li>PRODUITS</li>
@@ -23,15 +25,21 @@
                 <li>CONTACT</li>
             </ul>
         </nav>
-        <figure class="banner img">
+        </div>
+        <figure class="banner">
             <img src="./img/RTX2060.jpeg" alt="RTX 2060">
+            <div class="strip">
+                <h5> Plus d'information sur la gamme GeForce RTX</h5>
+                <button>Découvrir</button>
+            </div>
         </figure>
-        <h5> Plus d'information sur la gamme GeForce RTX</h5>
-        <button>Découvrir</button>
     </header>
     <main>
-        <div class="icon nvidia">
-            
+        <div class="flex">
+        <div class="icon-nvidia">
+            <figure>
+                <img src="./img/icon nvidia.png" alt="icon nvidia">
+            </figure>
         </div>
         <article>
         <h2>LA PUISSANCE, TOUT SIMPLEMENT</h2>
@@ -63,7 +71,7 @@
     </article>
     <aside>
         <h3>A PROPOS</h3>
-        <figure class="black nvidia">
+        <figure class="black-nvidia">
             <img src="./img/Black Nvidia Logo.png" alt="Black Nvidia ">
             <figcaption>Nvidia</figcaption>
         </figure>
@@ -84,6 +92,7 @@
             <i class="fa-brands fa-linkedin-in"></i>
         </div>
     </aside>
+        </div>
     <footer>
         <h4>NEWSLETTER</h4>
             <label for="name">Nom</label>
@@ -106,5 +115,6 @@
             </figure>
         </footer>
     </main>
+    </div>
 </body>
 </html>
