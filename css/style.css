@@ -1,3 +1,5 @@
+/************************ general!*******************/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,9 +8,13 @@
 
 .container{
     margin: 0 auto;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
+
+
+/**********************header*****************************/
+
 
 .header{
     display: flex;
@@ -76,9 +82,7 @@ figure{
     left: 0;
     width: 100%;
 
-    
 
-    
 }
 
 
@@ -105,10 +109,32 @@ button{
 }
 
 
-
+/*************************main**************************/
 
 .flex{
     display: flex;
     justify-content: space-between;
     
 }
+
+.article{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon-nvidia img{
+    max-width: 30px;
+    padding: 2px 0;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: 1000;
+}
+

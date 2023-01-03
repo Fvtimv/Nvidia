@@ -26,24 +26,23 @@
             </ul>
         </nav>
         </div>
-        <figure class="banner">
+        <figure class="banner head">
             <img src="./img/RTX2060.jpeg" alt="RTX 2060">
             <div class="strip">
-                <h5> Plus d'information sur la gamme GeForce RTX</h5>
-                <button>Découvrir</button>
+                <span> Plus d'information sur la gamme GeForce RTX</span>
+                <a href="#"><button class="button">Découvrir<span style="color: white;">&#9654;</span></button></a>
             </div>
         </figure>
     </header>
     <main>
-        <div class="flex">
+        <article>
         <div class="icon-nvidia">
             <figure>
                 <img src="./img/icon nvidia.png" alt="icon nvidia">
             </figure>
+            <h2>LA PUISSANCE, TOUT SIMPLEMENT</h2>
         </div>
-        <article>
-        <h2>LA PUISSANCE, TOUT SIMPLEMENT</h2>
-        <p>
+        <p class="main-article">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptatibus quas quia tempora cumque non nesciunt 
             minima eveniet voluptates molestias numquam, nostrum dignissimos. Ipsum omnis vel obcaecati. Repellat, deserunt. 
             Assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a temporibus voluptatum, qui consequatur, 
@@ -73,9 +72,8 @@
         <h3>A PROPOS</h3>
         <figure class="black-nvidia">
             <img src="./img/Black Nvidia Logo.png" alt="Black Nvidia ">
-            <figcaption>Nvidia</figcaption>
         </figure>
-        <p>
+        <p class="about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a temporibus voluptatum, qui consequatur, 
             odit quia officia, consequuntur sed molestiae nesciunt expedita nam doloribus et explicabo sequi. Quod, voluptatem dolores?
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolore qui quaerat. <br>
@@ -85,21 +83,26 @@
             Deleniti nemo corrupti.
         </p>
         <div class="icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-snapchat"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
+            <a href="https://fr-fr.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.snapchat.com/"><i class="fa-brands fa-snapchat"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
     </aside>
-        </div>
+</main>
     <footer>
+        <section class="formulaire">
         <h4>NEWSLETTER</h4>
+        <form action="#">
             <label for="name">Nom</label>
             <input type="text" name="name" id="name">
             <label for="newletter">Email</label>
             <input type="text" name="newsletter" id="newsletter">
-            <button>S'inscrire</button>
+            <input type="submit" value="S'inscrire">
+        </form>
+        </section>
+        <section class="galerie">
         <h4>GALERIE</h4>
             <figure>
                 <img src="./img/Nvidia Logo Green Background.png" alt="Nvidia Logo">
@@ -107,14 +110,16 @@
                 <img src="./img/Carte Graphique NVIDIA® GeForce® RTX série 20.jpg" alt="Carte Graphique NVIDIA® GeForce® RTX série 20">
                 <img src="./img/Nvidia Shield TV Pro.jpg" alt="Nvidia Shield TV Pro">
             </figure>
+        </section>
+        <section class="partenaires">
         <h4>PARTENAIRES</h4>
             <figure>
-                <img src="./img/intel Logo.png" alt="intel Logo">
-                <img src="./img/Asus Logo.jpg" alt="Asus Logo ">
-                <img src="./img/EA Logo.png" alt="EA Logo">
+                <a href="https://www.intel.fr/content/www/fr/fr/homepage.html"><img src="./img/intel Logo.jpg" alt="intel Logo"></a>
+                <a href="https://www.asus.com/fr/"><img src="./img/Asus Logo.jpg" alt="Asus Logo "></a>
+                <a href="https://www.ea.com/fr-fr"><img src="./img/EA Logo.png" alt="EA Logo"></a>  
             </figure>
+        </section>
         </footer>
-    </main>
     </div>
 </body>
 </html>
