@@ -109,6 +109,10 @@ button{
 
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 /*************************main**************************/
 
@@ -116,30 +120,31 @@ main{
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid rgb(118, 185, 0);
+    position: relative;
+
     
 }
 
 
 
-/**.icon-nvidia img{
-    max-width: 20px;
-    padding: 2px 0;
-    border: solid 1px black;
-    border-radius: 5px;
-    margin-right: 15px;
-}**/
-
 
 
 .icon-nvidia img{
-    width: 20px;
-    height: 18px;
+    width: 30px;
+    height: 25px;
     border: 1px solid black;
-    border-radius: 3px;
-}
+    border-radius: 5px;
+    padding: 1px;
+        
+    }
+
+
+
 
 .icon-nvidia{
-    margin: 25px 0 5px 0;
+    margin: 35px 0 5px 0;
+    display: flex;
+    justify-content: flex-start;
 }
 
 h2{
@@ -147,21 +152,23 @@ h2{
 }
 
 
-.title{
+/**.title{
     display: inline;
     margin-left: 1px;
-}
+}**/
+
 
 .main-article{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 150px;
+    font-size: 20px;
 }
 
-/***h2{
+h2{
     font-size: 25px;
     margin-bottom: 25px;
     font-weight: 1000;
-}**/
+}
 
 
 
@@ -172,8 +179,9 @@ aside{
     background-color: rgb(118, 185, 0);
     color: white;
     margin-top: 20px;
-    padding: 30px;
+    padding: 15px;
     display: block;
+    width: 3500px;
 }
 
 
@@ -181,37 +189,60 @@ aside{
 h3{
     display: flex;
     justify-content: center;
-    padding: 0;
+    margin-top: 20px;
+    font-size: x-large;
+
 }
 
 
 .black-nvidia img{
-    min-width: 105px;
+    max-width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .about{
-    margin-top: 10px;
-    font-size: 15px;
+    margin-top: 30px;
+    font-size: 20px;
 }
 
 .icons{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 55px;
-    margin-bottom: 1px;
-    font-style: 30px;
+    font-size: 35px;
+
+}
+
+.triangle{
+    position: absolute;
+    left: 900px;
+    top: 658px;
+    font-size: 40px;
 }
 
 /**************************footer******************/
 
 section{
-    display: flex;
+    margin-top: 90px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 20px;
+
 }
 
 .formulaire{
-    display: block;
+    
+  
+}
+
+.images img{
+    width: 110px;
+    height: 100px;
+}
+
+h4{
+    
 }
