@@ -105,11 +105,24 @@
         </section>
         <section class="galerie">
         <h4>GALERIE</h4>
-            <figure class="images products" >
-                <img src="./img/Nvidia Logo Green Background.png" alt="Nvidia Logo">
-                <img src="./img/Carte Graphique Nvidia GeForce RTX 2060.jpg" alt="Carte Graphique Nvidia GeForce RTX 2060 ">
-                <img src="./img/Carte Graphique NVIDIA® GeForce® RTX série 20.jpg" alt="Carte Graphique NVIDIA® GeForce® RTX série 20">
-                <img src="./img/Nvidia Shield TV Pro.jpg" alt="Nvidia Shield TV Pro">
+            <figure class="images" >
+                <div>
+                <img id="myImg" src="./img/Nvidia Logo Green Background.png" alt="Nvidia Logo">
+                <div id="modal">
+                    <span class="close">&times;</span>
+                    <img id="myImg1" src="./img/Nvidia Logo Green Background.png" alt="Nvidia Logo">
+                </div>
+            </div>
+                <div>
+                <img class="myImg" src="./img/Carte Graphique Nvidia GeForce RTX 2060.jpg" alt="Carte Graphique Nvidia GeForce RTX 2060 ">
+                </div>
+                <div>
+                <img class="myImg" src="./img/Carte Graphique NVIDIA® GeForce® RTX série 20.jpg" alt="Carte Graphique NVIDIA® GeForce® RTX série 20">
+                </div>
+                <div>
+                <img class="myImg" src="./img/Nvidia Shield TV Pro.jpg" alt="Nvidia Shield TV Pro">
+                </div>
+            
             </figure>
         </section>
         <section class="partenaires">
@@ -122,5 +135,6 @@
         </section>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
