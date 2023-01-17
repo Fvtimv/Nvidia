@@ -34,9 +34,15 @@
 
 }
 
+/* nav{
+    width: 100%;
+    display: flex;
+    justify-content: center
 
+} */
 
 ul{
+    width: 100%;
     list-style: none;
     margin-right: 200px;
 
@@ -47,9 +53,8 @@ li{
     text-align: center;
     display: inline-flex;
     justify-content: center;
-    align-items: center;
     padding: 0 44px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 900;
     
 }
@@ -67,7 +72,7 @@ li{
 
 .strip{
     background-color: rgba(45, 128, 45, 0.308);
-    height: 13%;
+    height: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -205,8 +210,8 @@ h3{
 
 .triangle{
     position: absolute;
-    left: 900px;
-    top: 658px;
+    left: 600px;
+    top: 820px;
     font-size: 40px;
 }
 
@@ -228,8 +233,8 @@ footer {
 
 
 .images img{
-    width: 150px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
 }
 
 h4{
@@ -238,16 +243,20 @@ h4{
 
 }
 
+form{
+    width: 100%;
+}
+
 input{
     display: flex;
-    height: 55px;
-    width: 300px;
+    height: 40px;
+    width: 250px;
     margin-bottom: 10px;
     
 }
 
 [type= text]{
-    font-size: 20px;
+    font-size: 15px;
     padding: 9px;
 
 }
@@ -259,15 +268,12 @@ input{
 
 [type=submit]{
     background-color: rgb(118, 185, 0);
-    width: 200px;
+    width: 150px;
     color: white;
     border:none;
-    font-size: 25px;
+    font-size: 15px;
     margin-left: 15px;
-    display: inline-flex;
-    justify-content: center;
-    
-
+    padding-left: 15px;
 }
 
 
@@ -539,19 +545,24 @@ input{
         width: 25%;
     }
 
-    nav{
-        margin: auto;
-        
-    }    
+
+    /* nav{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    
+    } */
 
     ul{
+        margin: auto;
         margin-top: 20px;
+        text-align: center;
     }
 
     li{
         font-size: 15px;
         font-weight: 900;   
-        padding: 0;    
     }
     
        
@@ -686,7 +697,11 @@ h4{
 }
 
 form{
-    margin: auto;
+    display: inline;
+    text-align: center;
+    margin: 0 auto;
+    
+    
     
 }
  
@@ -705,9 +720,9 @@ input{
 }
 
 .inscrire{
-    display: inline-block;
+    display: inline;
     text-align: center;
-    margin: auto;
+
     
    
 } 
