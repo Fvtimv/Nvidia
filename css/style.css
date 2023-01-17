@@ -526,7 +526,7 @@ input{
 
 /*********Mobile Phone**********/
 
-@media only screen and (max-width: 818px){
+@media only screen and (max-width: 759px){
     .container{
         width: 90%;
         margin: 0 auto;
@@ -758,6 +758,7 @@ figure{
 @media only screen 
 and (min-device-width: 760px)
 and (max-device-width: 1024px){
+
     .container{
         width: 90%;
         margin: 0 auto;
@@ -770,10 +771,21 @@ and (max-device-width: 1024px){
     }
     
 
+    ul{
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
 
+    }
 
-   
-    .head{
+    li{
+        text-align: center;
+        padding: 0 30px;
+        margin: auto;
+
+    }
+        .head{
         position: relative;
     }
 
