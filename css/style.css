@@ -697,15 +697,14 @@ h4{
 }
 
 form{
-    display: inline;
     text-align: center;
     margin: 0 auto;
-    
-    
+       
     
 }
  
 input{
+    display: inline;
     height: 35px;
     width: 250px;
     
@@ -716,14 +715,11 @@ input{
     font-size: 15px;
     padding: 9px;
     
-
 }
 
 .inscrire{
     display: inline;
     text-align: center;
-
-    
    
 } 
 
@@ -737,6 +733,7 @@ input{
 
 figure{
     text-align: center;
+
     
     
 }
@@ -887,6 +884,7 @@ and (max-device-width: 1024px){
     footer {
         width: 100%;
         flex-direction: column;
+        text-align: center;
 
     }
 
@@ -910,7 +908,8 @@ and (max-device-width: 1024px){
     }
 
     form{
-        margin-left: 25px;
+        text-align: center;
+       
         
         
     }
@@ -922,8 +921,9 @@ and (max-device-width: 1024px){
 
 
     input{
+       
         height: 55px;
-       margin-top: 10px;
+        margin-top: 10px;
         
     }
 
